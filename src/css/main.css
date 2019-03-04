@@ -1,0 +1,35 @@
+.blue{
+  background-color: #afeeee;
+}
+.layout-nav{
+  width: 420px;
+  margin: 0 auto;
+}
+.layout-assistant{
+  width: 300px;
+  margin: 0 auto;
+  height: inherit;
+}
+.padding{
+  padding: 10px;
+}
+.fade{
+  display: none;
+}
+.show{
+  display: block;
+}
+#app{
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+.fade-enter-active,.fade-leave-active{
+  transition: all .5s;
+}
+.fade-enter,.fade-leave-active{
+  opacity: 0;
+}
